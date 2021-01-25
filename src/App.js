@@ -43,6 +43,7 @@ class App extends Component {
 
     return (
       <div className="App">
+      <h3>In a feature branch</h3>
         <SearchBox placeholder='search monsters' handleChange={this.handleChange}>
         </SearchBox>
         <CardList monsters={filteredMonster} />
